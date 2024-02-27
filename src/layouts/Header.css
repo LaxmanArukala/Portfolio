@@ -1,0 +1,28 @@
+:root {
+  --primary-bg: #121314;
+  --white: #ffffff;
+  --bg-danger: #e13d4f;
+  --bd-bg-primary: #161718;
+}
+
+.bd-sticky {
+  position: fixed !important;
+  top: 0;
+  z-index: 111;
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: var(--bd-bg-1);
+  border-top: 0;
+  box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.12);
+  background: var(--primary-bg);
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff;
+}
+.navbar .nav-link {
+  padding: 0 20px !important;
+}
