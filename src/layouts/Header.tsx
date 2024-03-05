@@ -46,7 +46,7 @@ export function Header() {
               <Link to="/" className="nav-link">
                 Job History
               </Link>
-              <Link to="/" className="nav-link">
+              <Link to="/twod-models" className="nav-link">
                 My Demos
               </Link>
               <Link to="/" className="nav-link">

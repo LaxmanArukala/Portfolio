@@ -1,4 +1,4 @@
-import ContactUs from "../pages/ContactUs";
+import { TwodModels } from "../pages/TwodModels";
 
-const publicRoutes = [{ path: "contact-us", element: <ContactUs /> }];
+const publicRoutes = [{ path: "twod-models", element: <TwodModels /> }];
 export default publicRoutes;
